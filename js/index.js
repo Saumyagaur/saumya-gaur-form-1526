@@ -47,7 +47,7 @@ function validateForm() {
     
     if(email.value !== ""){
        if(emailfilter.test(email.value)) {
-            collectedData.emailadd = email.value;
+            collectedData.email = email.value;
         } else {
           errors.push("Email name is wrong");  
         }
