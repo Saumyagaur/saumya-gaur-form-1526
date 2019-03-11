@@ -98,12 +98,12 @@ fieldset {
 
 /*MEDIA QUERY FOR TABLET*/
 
-@media (min-width: 45rem) {
+@media (min-width: 25rem) {
     legend {
-        width: 40%;
+        width: 50%;
     }
     .wrapper {
-        width: 45rem;
+        width: 40rem;
         
     }
     
@@ -123,15 +123,15 @@ fieldset {
     }
     
     #fullname {
-        width: 140%;
+        width: 130%;
     }
     
     #email {
-        width: 140%;
+        width: 130%;
     }
     
     #col-1 {
-        margin-right: 22%;
+        margin-right: 18%;
     }
     
     #collect {
@@ -146,7 +146,7 @@ fieldset {
 
 /*MEDIA QUERY FOR desktop*/
 
-@media (min-width: 50rem) {
+@media (min-width: 45rem) {
     
     legend {
         width: 40%;
