@@ -1,0 +1,191 @@
+html {
+    font-size: 80%;
+}
+body {
+    font-size: 1rem;
+    font-family: 'arial';
+    margin-right: 5%;
+    margin-left: 5%;
+    
+}
+
+form {
+    margin-top: 50px;
+}
+legend {
+    width: 70%;
+    font-size: 2rem;
+    border-radius: 5px;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline-style: solid;
+    outline-color: #ddd;
+    margin-bottom: 20px;
+    
+}
+fieldset {
+    background-color: #F5F5F5;
+    border: solid;
+    border-color: #ddd;
+    border-radius: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#collect {
+    background-color: #6495ED;
+    width: 100%;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+#fullname, #email {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid;
+    border-color: #ddd;
+}
+
+#message {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    height: 50px;
+    border-radius: 5px;
+    border: solid;
+    border-color: #ddd;
+}
+
+
+
+
+
+
+/*MEDIA QUERY FOR MOBILE*/
+
+@media (min-width: 25rem) {
+    .wrapper {
+        width: 25rem;
+        
+    }
+    
+    html {
+        display: flex;
+        flex-flow: row nowrap;  
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+ 
+    
+}
+    
+  
+
+
+
+/*MEDIA QUERY FOR TABLET*/
+
+@media (min-width: 45rem) {
+    legend {
+        width: 40%;
+    }
+    .wrapper {
+        width: 45rem;
+        
+    }
+    
+    body {
+        display: flex;
+        flex-flow: row nowrap;  
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        margin: 5% 5%;
+}
+    .cells {
+        display: flex;
+        
+    }
+    
+    #fullname {
+        width: 140%;
+    }
+    
+    #email {
+        width: 140%;
+    }
+    
+    #col-1 {
+        margin-right: 22%;
+    }
+    
+    #collect {
+        width: 20%;
+        border-radius: 5px;
+    }
+}
+    
+
+
+
+
+/*MEDIA QUERY FOR desktop*/
+
+@media (min-width: 50rem) {
+    
+    legend {
+        width: 40%;
+    }
+    .wrapper {
+        width: 50rem;
+        
+        
+    }
+    
+    body {
+        display: flex;
+        flex-flow: row nowrap;  
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+}
+    .cells {
+        display: flex;
+        
+    }
+    
+    #fullname {
+        width: 160%;
+    }
+    
+    #email {
+        width: 160%;
+    }
+    
+    #col-1 {
+        margin-right: 25%;
+    }
+    
+    #collect {
+        width: 20%;
+        border-radius: 5px;
+    }
+    
+}
