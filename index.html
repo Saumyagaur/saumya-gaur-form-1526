@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Simple Form</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <!--
+    form>fieldset>legend+.box*2>label+input^.box>input[type="button"]
+    -->
+    <div class="wrapper">
+        <form>
+            <fieldset>
+               <legend>Form Assignment</legend>
+               <div class="field">
+                    <div class="cells">
+                        <div class="box" id="col-1">
+                            <label for="fullname">Full Name</label>
+                            <br>
+                            <input type="text" id="fullname">
+                        </div>
+                        <div class="box" id="col-2">
+                            <label for="email">Email</label>
+                            <br>
+                            <input type="text" id="email">
+                        </div>
+                    </div>
+                    <div class= "box" id="col-3">
+                        <label for="message">Message</label>
+                        <br>
+                        <textarea type="text" name="message" id="message"></textarea>
+                    </div>
+                    <div class="box">
+                        <input type="button" value="Submit" id="collect">
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    
+    <script src="./js/index.js"></script>
+</body>
+</html>
